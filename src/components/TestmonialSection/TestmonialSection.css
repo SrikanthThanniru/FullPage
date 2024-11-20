@@ -1,0 +1,88 @@
+.testmonial-section{
+    width: Fill (1,440px)px;
+height: Hug (552px)px;
+padding: 96px 0px 96px 0px;
+gap: 64px;
+opacity: 0px;
+background: rgba(249, 250, 251, 1);
+top: 96px;
+bottom: 96px;
+
+}
+.test-container{
+    width: Fixed (1,280px)px;
+height: Hug (360px)px;
+padding: 0px 32px 0px 32px;
+gap: 32px;
+opacity: 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.test-logo{
+    width: 140.83px;
+height: 40px;
+padding: 0px 0.72px 0px 0px;
+gap: 0px;
+opacity: 0px;
+
+}
+.sys-logo{
+    height: 40px;
+}
+.test-typo{
+    font-size: 30px;
+    margin: 0px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    color: rgba(16, 24, 40, 1);
+
+}
+.testo-avatar-text{
+    width: Fill (1,216px)px;
+height: Hug (136px)px;
+gap: 16px;
+opacity: 0px;
+
+}
+.test-img{
+    width: 64px;
+height: 64px;
+margin-left: 70px;
+gap: 0px;
+border-radius: 50%;
+opacity: 0.08px;
+background: rgba(224, 224, 224, 1);
+
+}
+.testo-textsupp{
+    width: Fill (1,216px)px;
+height: Hug (56px)px;
+gap: 4px;
+opacity: 0px;
+
+}
+.img-text1{
+    color: rgba(16, 24, 40, 1);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    margin: 0px;
+    text-underline-position: from-font;
+    
+}
+.img-text2{
+    color: rgba(71, 84, 103, 1);
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    
+}

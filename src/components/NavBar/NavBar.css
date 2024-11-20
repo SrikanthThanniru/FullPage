@@ -1,0 +1,90 @@
+.nav-container{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    position: sticky;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 1px solid rgba(242, 244, 247, 1)
+}
+.container1{
+    display: flex;
+    width: 80%;
+    position: sticky;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    gap:10px;
+
+
+}
+h1{
+    font-size: 22px;
+    color: rgba(16, 24, 40, 1);
+    margin: 0px;
+
+}
+
+.sub-headings{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:  rgba(71, 84, 103, 1);
+    margin-left: 10px;
+    gap: 20px;
+    
+}
+@media screen and (max-width: 768px){
+    .sub-headings{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+    }
+    .logo{
+        display: none;
+
+    }
+
+}
+ a{
+    text-decoration: none;
+    font-size: 20px;
+    color:  rgba(71, 84, 103, 1);
+    
+}
+.items{
+    display: flex;
+    align-items: center;
+
+}
+.icon{
+    margin-top: 5px;
+}
+.icon2{
+    margin-top: 10px;
+}
+.container2{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo{
+    border-radius: 50%;
+
+}
+.logoImg{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+@media screen and (min-width: 1024px){
+    .dropdown{
+        display: none;
+    }
+}

@@ -1,0 +1,61 @@
+.social-section{
+    width: Fill (1,440px)px;
+height: Hug (296px)px;
+padding: 96px 0px 96px 0px;
+gap: 0px;
+opacity: 0px;
+border-bottom: 1px solid rgba(242, 244, 247, 1)
+
+
+
+}
+.container{
+    width: Fixed (1,280px)px;
+height: Hug (104px)px;
+padding: 0px 32px 0px 32px;
+opacity: 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.para{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+color: rgba(71, 84, 103, 1);
+
+}
+.logos-container{
+    width: Fill (1,216px)px;
+height: Hug (48px)px;
+gap: 0px;
+justify-content: space-between;
+opacity: 0px;
+display: flex;
+align-items: center;
+
+}
+@media screen and (max-width: 768px){
+    .logos-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+.logo-name{
+padding: 2px 0.74px 2px 0px;
+gap: 22px;
+opacity: 0px;
+
+}
+.logo1{
+    width: 170px;
+    height: 35px;
+    padding: 2px 0.74px 2px 0px;
+    gap: 22px;
+    opacity: 0px;
+    
+}

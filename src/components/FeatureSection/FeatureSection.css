@@ -1,0 +1,152 @@
+.feature-section {
+    width: Fill (1, 440px)px;
+    height: Hug (836px)px;
+    padding: 96px 0px 96px 0px;
+    opacity: 0px;
+    gap: 30px;
+
+}
+
+.feature-c1 {
+    width: Fixed (1, 280px)px;
+    height: Hug (160px)px;
+    padding: 0px 32px 0px 32px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.head-support-text {
+    width: Fixed (768px)px;
+    height: Hug (160px)px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: centers;
+    gap: 20px;
+
+}
+
+.head-subheading {
+    width: Fill (768px)px;
+    height: Hug (80px)px;
+    opacity: 0px;
+    gap: 12px;
+
+}
+
+.f-para {
+    color: rgba(105, 65, 198, 1);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-underline-position: from-font;
+    margin: 0px;
+
+}
+.fea-head{
+color: rgba(16, 24, 40, 1);
+font-size: 30px;
+font-weight: 600;
+letter-spacing: -0.02em;
+text-align: center;
+margin: 0px;
+text-underline-position: from-font;
+
+
+}
+.supp-text{
+font-size: 20px;
+margin: 0px;
+font-weight: 400;
+text-align: center;
+text-underline-position: from-font;
+color: rgba(71, 84, 103, 1);
+
+}
+.feature-c2{
+    width: Fixed (1,280px)px;
+height: Hug (420px)px;
+padding: 0px 32px 0px 32px;
+gap: 64px;
+opacity: 0px;
+display: flex;
+flex-direction: column
+
+}
+.fea-content1{
+    width: Fill (1,216px)px;
+height: Hug (178px)px;
+gap: 32px;
+opacity: 0px;
+display: flex;
+
+}
+.fea-cont1{
+    width: Fill (384px)px;
+height: Hug (178px)px;
+gap: 20px;
+opacity: 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.fea-icons{
+    width: 48px;
+height: 48px;
+padding: 12px 0px 0px 0px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+.fea-icons{
+    width: 20.11px;
+height: 20px;
+top: 2px;
+left: 2px;
+gap: 0px;
+opacity: 0px;
+
+}
+.fea-text-supporttext{
+    width: Fill (384px)px;
+height: Hug (110px)px;
+gap: 8px;
+opacity: 0px;
+
+}
+.fea-text1{
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(16, 24, 40, 1);
+
+}
+.fea-text2{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(71, 84, 103, 1);
+
+}
+
+@media screen and (max-width: 768px){
+    .fea-content1{
+        display: flex;
+    flex-direction: column;
+    }
+    
+}
